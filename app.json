@@ -3,9 +3,9 @@
     "pages/classic/classic",
     "pages/books/books",
     "pages/books-detail/books-detail",
-    "pages/my/my"
+    "pages/my/my" 
   ],
-  "window": {
+  "window": { 
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",

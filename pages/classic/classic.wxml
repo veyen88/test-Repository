@@ -1,9 +1,15 @@
  <view class="container">
 <view class="header">
  <w-epsoide class="epsoide" index="{{classic.index}}"/>
+ <view class="like-container">
  <w-like class="like" bind:like="onLike" 
 like="{{likeStatus}}" 
  count="{{likeCount}}"/>
+ <w-button  class="share-btn" open-type="share">
+<image slot="img" class="share" src="/images/icon/share.png"></image>
+</w-button>
+ </view>
+ 
 </view>
 
 <w-movie hidden="{{classic.type!=100}}" img="{{classic.image }}" content="{{classic.content}}"/>
